@@ -1,0 +1,100 @@
+html{
+    scroll-behavior:smooth;
+}
+
+
+
+.superga{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+        
+}
+
+.lacoste{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: green
+}
+
+
+.converse{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:  yellow
+}
+
+
+.img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.testo{
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    color: yellow;
+
+}
+
+.testo3{
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    color: green
+
+}
+
+ul li{
+    display: inline;
+    margin-right: 5%;
+    margin-top: 100px;
+    scroll-behavior:smooth;
+}
+
+li a{
+
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.lista{
+    width: 100vw;
+    position: absolute;
+    top: 8%;
+    left: 70%;
+    scroll-behavior:smooth;
+
+}
+
+.elemento{
+
+}
+
+.elemento:hover{
+    text-shadow: 3px 3px 3px black;
+
+}
